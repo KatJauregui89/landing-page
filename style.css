@@ -40,7 +40,7 @@ nav {
     display: flex;
     background-color: rgb(255, 195, 223);
     flex: 1;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -73,4 +73,22 @@ h1 {
     border: none;
     border-radius: 8px;
     color: white;
+}
+
+.middle {
+    display: flex;
+    display: row;
+    flex: 1;
+}
+
+.item {
+    width: 250;
+    height: 250;
+    border: 5px solid rgb(239, 167, 128);
+}
+
+.picsandtext {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
