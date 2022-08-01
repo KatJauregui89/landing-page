@@ -87,12 +87,19 @@ h1 {
     font-size: 20px;
 }
 
-.item img {
+.imgitem {
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+    /* margin-bottom: 10px; */
+}
+
+.box {
     border: 2px solid rgb(239, 167, 128);
-    width: 250px;
-    height: 250px;
     border-radius: 15px;
     margin-bottom: 10px;
+    width: 250px;
+    height: 250px;
 }
 
 .text {
