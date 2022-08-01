@@ -76,18 +76,12 @@ h1 {
 
 .middle {
     display: flex;
-    display: row;
-    flex: 1;
+    flex-direction: column;
+    /* flex: 1; */
+    align-items: center;
 }
 
-.item {
-    width: 250;
-    height: 250;
-    border: 5px solid rgb(239, 167, 128);
-}
-
-.picsandtext {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
+.middleheader {
+    color: rgb(124, 96, 107);
+    font-weight: 600;
 }
